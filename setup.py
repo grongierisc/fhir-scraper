@@ -4,7 +4,7 @@ setuptools.setup(
     name='fhir-scraper',    # This is the name of your PyPI-package.
     version='0.1',                          # Update the version number for new releases
     scripts=['src/app'],                  # The name of your scipt, and also the command you'll be using for calling it
-    python_requires='>=3.6.6',
+    python_requires='>=3.6.2',
     author="Guillaume Rongier",
     author_email="guillaume.rongier@intersystems.com",
     url="https://www.intersystems.com/",
