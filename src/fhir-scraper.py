@@ -1,4 +1,6 @@
 
+#!/usr/bin/env python
+
 from fhirpy import SyncFHIRClient
 import requests
 import logging
