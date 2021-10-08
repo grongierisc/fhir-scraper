@@ -33,24 +33,26 @@ python app.py
 Edit the app.py file to configure the variable in main.
 
 ```python
-    ### Source Repository
-    urlClient = "http://localhost:52773/fhir/r4/"
-    
-    ### Source authorization heard
-    source_authorization=None
 
-    ### Destination Repository
-    urlServer = "http://localhost:32783/fhir/r4/"
-    
-    ### Destination authorization heard
-    target_authorization=None
+### Source Repository
+urlClient = "http://localhost:52773/fhir/r4/"
 
-    ### List of resource to fetch
-    ### If None, the script will fetch all available resources 
-    p_resources=None
+### Source authorization heard
+source_authorization=None
 
-    ### Limit the number of resource to fetch
-    p_limit=100
+### Destination Repository
+urlServer = "http://localhost:32783/fhir/r4/"
+
+### Destination authorization heard
+target_authorization=None
+
+### List of resource to fetch
+### If None, the script will fetch all available resources 
+p_resources=None
+
+### Limit the number of resource to fetch
+p_limit=100
+
 ```
 # How it works
 
