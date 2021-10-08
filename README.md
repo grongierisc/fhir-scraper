@@ -1,7 +1,5 @@
 # fhir-scraper
-A simple python script to scrap a FHIR repository to another one.
-
-The idea is to copy/scrap/crawl a FHIR repository.
+A simple python script to copy/scrap/crawl a FHIR repository to another one.
 
 The script is written in Python 3.
 
