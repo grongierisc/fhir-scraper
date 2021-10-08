@@ -34,16 +34,17 @@ python app.py
 
 Edit the app.py file to configure the variable in main.
 
+```python
     ### Source Repository
     urlClient = "http://localhost:52773/fhir/r4/"
     
-    ### Source authorization key
+    ### Source authorization heard
     source_authorization=None
 
     ### Destination Repository
     urlServer = "http://localhost:32783/fhir/r4/"
     
-    ### Destination authorization
+    ### Destination authorization heard
     target_authorization=None
 
     ### List of resource to fetch
@@ -52,7 +53,7 @@ Edit the app.py file to configure the variable in main.
 
     ### Limit the number of resource to fetch
     p_limit=100
-
+```
 # How it works
 
 By default the algorithm will read the metadata of the source. 
