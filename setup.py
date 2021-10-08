@@ -1,4 +1,5 @@
 import setuptools  
+from setuptools.command.install import install
 
 setuptools.setup(
     name='fhir-scraper',    # This is the name of your PyPI-package.
@@ -27,4 +28,6 @@ setuptools.setup(
         'yarl==1.7.0'
     ],
 )
+
+
 
