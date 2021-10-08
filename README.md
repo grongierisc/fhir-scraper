@@ -3,12 +3,34 @@ A simple python script to copy/scrap/crawl a FHIR repository to another one.
 
 The script is written in Python 3.
 
-# How to run it
+# Install it from pip
+
+```shell
+python -m venv .venv
+source .venv/bin/activate
+pip install git+https://github.com/grongierisc/fhir-scraper
+cp .venv/bin/fhir-scraper.py .
+```
+
+Edit fhir-scraper.py for your needs.
+
+Run it :
+
+```
+python fhir-scraper.py 
+```
+
+# How to run it from git
+
+First clone this repository.
+
+```shell
+git clone https://github.com/grongierisc/fhir-scraper
+```
 
 You can install it quickly into a Virtual Environment. First, you need to move to the source folder and create an Virtual Environment (all commands are for Unix-based OS and may need tweaking on Windows):
 
 ```shell
-cd src
 python -m venv .venv
 source .venv/bin/activate
 ```
@@ -18,14 +40,15 @@ On Windows without Windows Subsystem for Linux, you will need to change the last
 These commands will create a new directory, visit it, create the virtual environment, and activate it. Then you can install the dependencies.
 
 ```shell
-pip install -r requirements.txt
+pip install .
 ```
 
-Now you can run the app.
 Before running it, you can refere to the configuration.
 
+Now you can run the app.
+
 ```shell
-python app.py
+python .venv/bin/fhir-scraper.py
 ```
 
 # How to configure it

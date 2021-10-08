@@ -28,6 +28,3 @@ setuptools.setup(
         'yarl==1.7.0'
     ],
 )
-
-
-
